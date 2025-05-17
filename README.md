@@ -1,6 +1,6 @@
-# Walmart Sales Demand Forecasting - RNN, LSTM, GRU, LGBM
+# Walmart Demand Forecasting – M5 Competition
 
-This project tackles the challenge of forecasting daily product demand across Walmart stores using real-world sales, pricing, and event data provided in the M5 Forecasting competition. We evaluate multiple models including LightGBM, LSTM/GRU, and Seq2Seq GRU, balancing forecasting accuracy with speed, interpretability, and deployability.
+This project tackles the challenge of forecasting daily product demand across Walmart stores using real-world sales, pricing, and event data from the M5 Forecasting competition. We evaluate multiple models including LightGBM, LSTM/GRU, and Seq2Seq GRU, balancing forecasting accuracy with speed, interpretability, and deployability.
 
 ---
 
@@ -8,15 +8,20 @@ This project tackles the challenge of forecasting daily product demand across Wa
 
 | File                             | Description                                               |
 |----------------------------------|-----------------------------------------------------------|
-| `calendar.csv`                   | Calendar of events, holidays, and SNAP days              |
-| `sell_prices.csv`                | Weekly item-store price data                             |
-| `sales_train_validation.csv`     | Historical sales data for training                       |
-| `sales_train_evaluation.csv`     | Evaluation target structure                              |
 | `walmart_forecasting_LGBM.ipynb` | LightGBM model with feature engineering                  |
 | `walmart_forecasting_LSTM_GRU.ipynb` | LSTM and GRU sequential models using rolling windows     |
 | `walmart_forecasting_seq2seq_GRU.ipynb` | Seq2Seq GRU for one-shot 28-day forecasting              |
 | `Presentation Slides.pdf`        | Final presentation delivered to stakeholders             |
 | `Project WriteUp.pdf`            | Detailed write-up covering methodology and findings      |
+
+---
+
+## 📦 Data Source
+
+The raw data files (`calendar.csv`, `sell_prices.csv`, `sales_train_validation.csv`, and `sales_train_evaluation.csv`) are not included in this repository due to file size limits.
+
+You can download the full dataset directly from Kaggle:  
+🔗 [M5 Forecasting - Accuracy | Kaggle Dataset](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
 
 ---
 
