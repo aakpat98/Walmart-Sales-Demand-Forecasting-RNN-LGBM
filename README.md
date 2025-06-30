@@ -1,6 +1,6 @@
 # Walmart Demand Forecasting
 
-This project tackles the challenge of forecasting daily product demand across Walmart stores using real-world sales, pricing, and event data from the M5 Forecasting competition. We evaluate multiple models including LightGBM, LSTM/GRU, and Seq2Seq GRU, balancing forecasting accuracy with speed, interpretability, and deployability.
+This project tackles the challenge of forecasting daily product demand across Walmart stores using real-world sales, pricing, and event data. We evaluate multiple models including LightGBM, LSTM/GRU, and Seq2Seq GRU, balancing forecasting accuracy with speed, interpretability, and deployability.
 
 ---
 
