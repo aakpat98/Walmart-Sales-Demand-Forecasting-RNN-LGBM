@@ -64,7 +64,7 @@ The raw data files (`calendar.csv`, `sell_prices.csv`, `sales_train_validation.c
 
 ## 📎 Credits
 
-This project was built as part of a graduate-level course on applied machine learning and time series forecasting. The dataset is from the [M5 Forecasting competition](https://www.kaggle.com/competitions/m5-forecasting-accuracy/overview).
+This project was built as part of a graduate-level course on applied machine learning and time series forecasting.
 
 ---
 
