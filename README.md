@@ -20,9 +20,6 @@ This project tackles the challenge of forecasting daily product demand across Wa
 
 The raw data files (`calendar.csv`, `sell_prices.csv`, `sales_train_validation.csv`, and `sales_train_evaluation.csv`) are not included in this repository due to file size limits.
 
-You can download the full dataset directly from Kaggle:  
-🔗 [M5 Forecasting - Accuracy | Kaggle Dataset](https://www.kaggle.com/competitions/m5-forecasting-accuracy/data)
-
 ---
 
 ## 📌 Objectives
